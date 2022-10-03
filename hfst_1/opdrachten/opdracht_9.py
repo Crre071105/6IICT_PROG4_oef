@@ -1,4 +1,5 @@
 """ Niveau 1 """
+nieuwe_dict = {}
 puntenlijst = [
     ["A", "E", "I", "O", "U", "L", "N", "R", "S", "T"], # 1 punt
     ["D", "G"],                                         # 2 punten
@@ -9,6 +10,10 @@ puntenlijst = [
     ["Q","Z"]                                           # 7 punten
 ]
 
+for index, lijst_letters in enumerate(puntenlijst):
+    for letter in lijst_letters:
+        nieuwe_dict[letter]=index+1
+print(nieuwe_dict)
 """ Niveau 2"""
 puntenlijst_en = [
     ["A", "E", "I", "O", "U", "L", "N", "S", "T"],      # 1 punt

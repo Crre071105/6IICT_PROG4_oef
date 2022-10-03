@@ -1,3 +1,6 @@
+from itertools import zip_longest
+
+
 engels_nederlands = { "last":"laatste", "week":"week", "the":"de",
 "royal":"koninklijk", "festival":"feest", "hall":"hal",
 "saw":"zaag", "first":"eerst", "performance":"optreden",
@@ -8,3 +11,9 @@ engels_nederlands = { "last":"laatste", "week":"week", "the":"de",
 "sheds":"schuren" }
 
 zin = input("Geef een zin in het engels: ")
+nieuwe_zin = ""
+woorden = zin.split()
+for woord in woorden :
+    nieuwe_zin += engels_nederlands.get(woord,woord)
+    nieuwe_zin += " "
+print( nieuwe_zin )

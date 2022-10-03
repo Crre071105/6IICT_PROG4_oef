@@ -9,3 +9,8 @@ scores = [
     [ 7, 6, 5 ], # Life
     [ 6, 5, 6, 6 ] # Different
 ] 
+
+dict = {}
+for index, film in enumerate(films):
+    dict[film] = scores[index]
+print(dict)
