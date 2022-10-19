@@ -1,0 +1,5 @@
+{
+    "maandag": "school",
+    "dinsdag": ["school","werk"],
+    "woensdag": "school"
+}
