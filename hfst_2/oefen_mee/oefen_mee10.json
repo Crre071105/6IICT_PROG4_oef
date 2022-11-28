@@ -1,0 +1,11 @@
+{
+    "HOOGTE":500,
+    "BREEDTE":500,
+    "KANS_LEVEND":0.5,
+    "KLEUR_ACHTERGROND":[255,0,0],
+    "KLEUR_LEVEND":[0,0,255],
+    "KLEUR_DOOD":[0,0,0],
+    "CEL_HOOGTE":1,
+    "CEL_BREEDTE":1
+
+}
