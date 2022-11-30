@@ -7,7 +7,10 @@ try:
     else:
         getal = int( getal )
     print( fruit_lijst[getal] )
-except:
-    print( "Er ging iets fout" )  
+except ValueError:
+    print( "schrijf een cijfer" )  
+except KeyboardInterrupt:
+    print ("druk geen ctrl + c")
+
 
 print("Programma klaar")  
