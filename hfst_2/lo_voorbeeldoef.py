@@ -14,7 +14,12 @@ laad lo_voorbeeldoefening.json in Python. Zet deze dictionary in een variabele.
 Lukt dit niet? Dan mag je de dictionary rechtstreeks hieronder plakken.
                Je krijgt dan wel geen punten voor dit onderdeel.
 """
+import json
 
+# Pad is afhankelijk van locatie appel.json
+fp = open("hfst_2/lo_voorbeeldoefening.json", "r")
+toren = json.load(fp)
+print(toren)
 """ STAP 2:
 print volgende zaken over de toren:
     - De naam zelf (toren)
