@@ -1,11 +1,11 @@
-import tkinter as tk
+import tkinter as tk#importeer de lib tkinter 
 
-venster = tk.Tk()
+venster = tk.Tk()# maakt lege GUI aan
 
-label = tk.Label(master=venster, text="Welke website wil je bezoeken?", height=2)
-label.grid(row=0, column=0, columnspan=2)
+label = tk.Label(master=venster, text="Welke website wil je bezoeken?", height=2)# maakt label aan
+label.grid(row=0, column=0, columnspan=2)# geeft de locatie aan
 
-link_1 = tk.Entry(master=venster, width=33, font=("Helvetica",14),
+link_1 = tk.Entry(master=venster, width=33, font=("Helvetica",14),#
                   border=10, borderwidth=5)
 link_1.grid(row=1, column=0)
 

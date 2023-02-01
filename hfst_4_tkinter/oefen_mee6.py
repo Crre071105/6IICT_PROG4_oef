@@ -1,10 +1,12 @@
+# Zoek de betekenis van een aantal parameters uit.
+# Zijn deze parameters bruikbaar bij Button en/of Label?
 import tkinter as tk
 
 venster = tk.Tk()
 
 # Functie maakt een label aan wanneer opgeroepen.
 def knop_klik():
-    label = tk.Label(master=venster, text="Goed gedaan!")
+    label =tk.Button(master=venster, text="Klik op mij!", command=knop_klik)
     label.pack()
 
 # Knop aanmaken.
