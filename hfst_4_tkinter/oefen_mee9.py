@@ -6,7 +6,7 @@ label = tk.Label(master=venster, text="Welke website wil je bezoeken?", height=2
 label.grid(row=0, column=0, columnspan=2)
 
 link_1 = tk.Entry(master=venster, width=33, font=("Helvetica",14),
-                  border=10, borderwidth=5)
+                  border=10, borderwidth=5,text ="test")
 link_1.grid(row=1, column=0)
 
 link_2 = tk.Entry(master=venster, width=33, font=("Helvetica",14), 
